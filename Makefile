@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++14 -Wall -MMD -Werror=vla
-EXEC = a4q4
+EXEC = reversi
 OBJECTS = grid.o cell.o main.o
 DEPENDS = ${OBJECTS:.o=.d}
 
